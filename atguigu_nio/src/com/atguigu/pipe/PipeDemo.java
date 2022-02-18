@@ -1,15 +1,9 @@
 package com.atguigu.pipe;
 
-import org.junit.jupiter.api.Test;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
-import java.nio.channels.FileLock;
 import java.nio.channels.Pipe;
-import java.util.Date;
 
 public class PipeDemo {
 

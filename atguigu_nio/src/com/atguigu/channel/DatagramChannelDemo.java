@@ -1,9 +1,7 @@
 package com.atguigu.channel;
 
-import org.junit.jupiter.api.Test;
-import sun.awt.windows.WBufferStrategy;
+import org.testng.annotations.Test;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.nio.ByteBuffer;

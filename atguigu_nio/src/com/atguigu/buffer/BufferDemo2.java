@@ -1,9 +1,8 @@
 package com.atguigu.buffer;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;

@@ -1,6 +1,5 @@
 package com.atguigu.channel;
 
-import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -10,7 +9,8 @@ public class FileChannelDemo2 {
 
     public static void main(String[] args) throws Exception {
         // 打开FileChannel
-        RandomAccessFile aFile = new RandomAccessFile("d:\\atguigu\\001.txt","rw");
+        String fileUrl = "/Users/yangjinhua/Downloads/尚硅谷Java NIO课程（2021最新版）/nio-code/atguigu_nio/src/com/atguigu/resource/02.txt";
+        RandomAccessFile aFile = new RandomAccessFile(fileUrl,"rw");
         FileChannel channel = aFile.getChannel();
 
         //创建buffer对象

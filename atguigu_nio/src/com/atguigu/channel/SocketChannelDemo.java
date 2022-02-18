@@ -1,14 +1,8 @@
 package com.atguigu.channel;
 
-import org.junit.jupiter.api.Test;
-
-import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.net.SocketAddress;
 import java.nio.ByteBuffer;
-import java.nio.channels.DatagramChannel;
 import java.nio.channels.SocketChannel;
-import java.nio.charset.Charset;
 
 public class SocketChannelDemo {
 
